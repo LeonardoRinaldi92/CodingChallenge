@@ -1,0 +1,93 @@
+/* sfondo e font */
+body {
+    background-image:url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* posizione per logo */
+.boxlogo {
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 80px;
+    width: 100%;
+}
+
+.img {
+    width: 100%;
+}
+
+.logo {
+    height: 100px;
+}
+
+/* testo per logo */
+.logotext {
+    font-size: xx-large;
+    color: rgb(68, 255, 0);
+}
+
+/* linea verde caselle */
+.row {
+    background-color: rgb(68, 255, 0); 
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-bottom: 15px;
+   margin-top: 5px;
+   
+}
+
+/* distanza laterale */
+section {
+    padding-bottom: 30px;
+}
+
+/* rettangolo scuro sfondo */
+.rectangle{
+    width: 60%;
+    padding-left: 80px;
+    background-color: rgba(0, 0, 0, 0.492);
+    margin: auto;
+    padding-right: 80px;
+    border-radius: 20px;
+}
+
+.monopattinoname{
+    color: white;    
+    font-size: x-large;
+    line-height: 35px;  
+}
+
+.scooterposition {
+    color: white;
+    font-size: small;
+    line-height: 5px;
+}
+
+/* distanza barre ricarica */
+.chargelevel{
+    border-radius: 4px;
+    margin-bottom: 15px;
+    margin-top: 4px;
+}
+
+/* dimensione barre ricarica */
+#rectangle1{
+    width:35%;
+    height:25px;
+    background:rgb(240, 184, 43);
+}
+
+#rectangle2{
+    width:60%;
+    height:25px;
+    background:rgb(42, 194, 28);
+}
+
+#rectangle3{
+    width:15%;
+    height:25px;
+    background:rgb(146, 26, 26);
+}
